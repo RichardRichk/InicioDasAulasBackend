@@ -56,8 +56,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Em qual ano voce nasceu ?");
             int ano = Convert.ToInt32(Console.ReadLine());
 
-            var date = new DateTime();
-
             float idade = (DateTime.Now.Year - ano);
 
             Console.WriteLine($"{nome} voce tem {idade} Anos!!!");

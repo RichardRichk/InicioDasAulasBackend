@@ -58,7 +58,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             float idade = (DateTime.Now.Year - ano);
 
-            Console.WriteLine($"{nome} voce tem {idade} Anos!!!");
+            float IdadeSemanas = (idade * 52);
+
+            Console.WriteLine($"{nome} voce tem {idade} Anos e {IdadeSemanas} Semanas!!!");
             
         }
     }
